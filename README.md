@@ -8,4 +8,7 @@ My first Web API in ASP.NET Core 6.
 * SWAGGER
 * Nlog
 * FluentValidation
+* JwtBearer
 # Packages
+The package reference is available
+https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/
