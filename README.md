@@ -17,3 +17,4 @@ The package reference is available.
 * [AutoMapper.Extensions.Microsoft.DependencyInjection](https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjection).
 * [Swashbuckle.AspNetCore](https://www.nuget.org/packages/Swashbuckle.AspNetCore).
 * [Microsoft.AspNetCore.Authentication.JwtBearer](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer/8.0.0-preview.7.23375.9).
+* [NLog.Web.AspNetCore](https://www.nuget.org/packages/NLog.Web.AspNetCore).
