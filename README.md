@@ -14,6 +14,6 @@ The package reference is available.
 * [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/).
 * [Microsoft.EntityFrameworkCore.Tools](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.Tools/8.0.0-preview.7.23375.4). 
 * [FluentValidation.AspNetCore](https://www.nuget.org/packages/FluentValidation.AspNetCore).
-* [AutoMapper.Extensions.Microsoft.DependencyInjection](AutoMapper.Extensions.Microsoft.DependencyInjection).
+* [AutoMapper.Extensions.Microsoft.DependencyInjection](https://www.nuget.org/packages/AutoMapper.Extensions.Microsoft.DependencyInjection).
 * [Swashbuckle.AspNetCore](https://www.nuget.org/packages/Swashbuckle.AspNetCore).
 * [Microsoft.AspNetCore.Authentication.JwtBearer](https://www.nuget.org/packages/Microsoft.AspNetCore.Authentication.JwtBearer/8.0.0-preview.7.23375.9).
