@@ -10,6 +10,5 @@ My first Web API in ASP.NET Core 6.
 * FluentValidation
 * JwtBearer
 # Packages
-The package reference is available
-* [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/)
-This site was built using [GitHub Pages](https://pages.github.com/).
+The package reference is available.
+* [Microsoft.EntityFrameworkCore.SqlServer](https://www.nuget.org/packages/Microsoft.EntityFrameworkCore.SqlServer/).
