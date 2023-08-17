@@ -1,4 +1,4 @@
-﻿using LibraryAPI.Models;
+using LibraryAPI.Models;
 using LibraryAPI.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -32,7 +32,7 @@ namespace LibraryAPI.Controllers
         public ActionResult AddBook([FromBody] CreateBookDto dto)
         {
             int bookId = _bookService.Create(dto);
-            return Created($"api/restaurant/{bookId}/dish/{bookId}", null);
+            return Created($"api/library/{bookId}", null);
         }
         [HttpDelete("{id}")]
         public ActionResult Delete([FromRoute] int id)
