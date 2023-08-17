@@ -32,7 +32,7 @@ namespace LibraryAPI.Controllers
         public ActionResult AddBook([FromBody] CreateBookDto dto)
         {
             int bookId = _bookService.Create(dto);
-            return Created($"api/library/{bookId}", null);
+            return Created($"api/book/{bookId}", null);
         }
         [HttpDelete("{id}")]
         public ActionResult Delete([FromRoute] int id)
