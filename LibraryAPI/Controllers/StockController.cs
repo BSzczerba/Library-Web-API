@@ -1,4 +1,4 @@
-﻿using LibraryAPI.Models;
+using LibraryAPI.Models;
 using LibraryAPI.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -19,8 +19,8 @@ namespace LibraryAPI.Controllers
         [HttpPost]
         public ActionResult Post([FromRoute] int libraryId, [FromBody] CreateStockDto dto)
         {
-            var NewDishId = _stockService.Create(libraryId, dto);
-            return Created($"api/restaurant/{libraryId}/dish/{NewDishId}", null);
+            var NewStockId = _stockService.Create(libraryId, dto);
+            return Created($"api/library/{libraryId}/stock/{NewStockId}", null);
         }
         [HttpGet("{stockId}")]
         public ActionResult<StockDto> Get([FromRoute] int libraryId, [FromRoute] int stockId)
